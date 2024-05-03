@@ -1,0 +1,331 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 26, 2023, 10:19:59 PM
+    Author     : nikolagazdic
+*/
+
+
+
+
+@media(min-width:576px){
+
+    /*home*/
+
+    .home .container h1{
+
+        font-size: 100px;
+
+
+    }
+
+    .home{
+
+        padding-top:0px;
+    }
+
+    .home p{
+
+        font-size: 20px;
+    }
+    
+    img{
+        height:100%;
+    }
+
+    /*film & theatre*/
+
+#film h2:after{
+   content:'';
+    position:absolute;
+      top:100px;
+      left:20px;
+      height:6px;
+      width:20%;
+      background-color:purple; 
+    
+}
+
+.film-theatre h2:after{
+    content:'';
+    position:absolute;
+      top:100px;
+      left:20px;
+      height:6px;
+      width:30%;
+      background-color:purple;
+      
+}
+
+
+
+
+
+    /*contact*/
+
+    .contact{
+        background-repeat:no-repeat;
+        background-size: 850px 250px;
+
+
+    }
+
+    img{
+        height: 100% !important;
+    }
+    
+    /*about*/
+    
+    .marija-img{
+        
+        width:75%;
+    }
+    
+    
+    .about h2:after{
+    content:'';
+    position:absolute;
+      top:50px;
+      left:2px;
+      height:6px;
+      width:35%;
+      background-color:purple;
+      
+}
+
+}
+
+
+@media(min-width:768px){
+
+
+
+
+
+    /*home*/
+
+    .home{
+        margin-bottom:100px !important;
+    }
+
+    .home .container h1{
+
+        font-size: 140px;
+        overflow-wrap: break-word;
+    }
+
+    .home h3{
+
+        font-size: 40px;
+    }
+
+
+    /*film & teathre*/
+
+    .film-theatre h2,
+    .about h2{
+
+        font-size:50px;
+    }
+
+    .film-theatre p{
+
+        font-size:20px;
+    }
+    
+    
+    #film h2:after{
+   content:'';
+    position:absolute;
+      top:120px;
+      left:55px;
+      height:6px;
+      width:25%;
+      background-color:purple; 
+    
+}
+    
+    .film-theatre h2:after{
+    content:'';
+    position:absolute;
+      top:120px;
+      left:55px;
+      height:6px;
+      width:35%;
+      background-color:purple;
+      
+}
+
+
+
+.carousel-item img
+{
+    
+    max-width:50% !important;
+}
+
+
+
+
+    /*about*/
+
+    .about .container .row div p{
+
+        column-count: 2 ;
+
+    }
+    
+    
+       .about h2:after{
+    content:'';
+    position:absolute;
+      top:75px;
+      left:4px;
+      height:6px;
+      width:40%;
+      background-color:purple;
+      
+}
+    
+    /*contact*/
+
+    .contact{
+        background-repeat:no-repeat;
+        background-size: 750px 250px;
+        background-position:10% 90%;
+
+
+    }
+
+
+}
+
+
+@media(min-width:992px){
+    /*nav-bar*/
+    .nav-link {
+        padding: 0 15px;
+        position: relative;
+        cursor: pointer;
+        color:black;
+        padding-left:0;
+
+    }
+    .nav-item:nth-child(n+4) .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: white;
+        transition: all 0.3s ease-in ;
+    }
+
+    .nav-item:nth-child(n+4) .nav-link:hover::after {
+        width: 100%;
+    }
+
+    /*home*/
+    .home .container h1{
+
+        font-size: 180px;
+        overflow-wrap: break-word;
+    }
+
+    /*film & teathre*/
+  
+    #film h2:after{
+   content:'';
+    position:absolute;
+      top:120px;
+      left:55px;
+      height:6px;
+      width:25%;
+      background-color:purple; }
+  
+
+
+    .film-theatre h2:after{
+    content:'';
+    position:absolute;
+      top:120px;
+      left:55px;
+      height:6px;
+      width:30%;
+      background-color:purple;}
+
+
+    /*about*/
+
+    .about .container .row div p{
+
+        column-count: 2 ;
+
+        font-size: 20px !important;
+
+
+
+    }
+    
+    
+    
+       .about h2:after{
+    content:'';
+    position:absolute;
+      top:75px;
+      left:4px;
+      height:6px;
+      width:35%;
+      background-color:purple;}
+
+    /*contact*/
+
+    .contact{
+        background-repeat:no-repeat;
+        background-size: 900px 250px;
+        background-position:0% 80%;
+
+
+    }}
+
+
+
+
+
+@media(min-width:1200px){
+
+
+    /*home*/
+    .home .container h1{
+
+        font-size: 200px;
+        overflow-wrap: break-word;
+    }
+
+
+
+    /*film*/
+
+
+    /*about*/
+
+
+    /*contact*/
+
+    .contact{
+        background-repeat:no-repeat;
+        background-size: 900px 250px;
+        background-position:30% 80%;
+
+
+    }
+
+
+
+}
+
+
+
